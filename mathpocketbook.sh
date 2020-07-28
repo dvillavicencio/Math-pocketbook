@@ -56,7 +56,7 @@ do
 				do
 					if [ "$formula" == "" ]; then
 						echo -e "Entry is not valid, try again."
-						echo -e "Formula: A = w*l\n"
+						continue
 					elif [ "$formula" = "Quit" ]; then
 						break 5
 					elif [ "$formula" = "Back" ]; then
